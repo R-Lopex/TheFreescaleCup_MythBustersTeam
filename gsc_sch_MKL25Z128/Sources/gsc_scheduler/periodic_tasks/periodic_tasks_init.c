@@ -4,7 +4,7 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*
 * C Source:        periodic_tasks_init.c
-* version:         1.0 
+* version:         1.0
 * created_by:      MDRR
 * date_created:    July 31 2013
 *=============================================================================*/
@@ -38,7 +38,7 @@
  **************************************************************/
 void periodic_tasks_init_MclDrvs(void)
 {
-	
+
 }
 
 /**************************************************************
@@ -50,7 +50,7 @@ void periodic_tasks_init_MclDrvs(void)
  **************************************************************/
 void periodic_tasks_init_SysDrvs(void)
 {
-	init_leds();
+	app_InitGPIO();
 }
 
 /**************************************************************
@@ -63,9 +63,9 @@ void periodic_tasks_init_SysDrvs(void)
  **************************************************************/
  void periodic_tasks_init_task_5tks(void)
  {
-	
+
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_10tks
  *  Description          : Container for initialization of functionality that is
@@ -76,9 +76,9 @@ void periodic_tasks_init_SysDrvs(void)
  **************************************************************/
  void periodic_tasks_init_task_10tks(void)
  {
-	
+
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_20tks
  *  Description          : Container for initialization of functionality that is
@@ -91,7 +91,7 @@ void periodic_tasks_init_SysDrvs(void)
  {
 
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_50tks
  *  Description          : Container for initialization of functionality that is
@@ -102,9 +102,9 @@ void periodic_tasks_init_SysDrvs(void)
  **************************************************************/
  void periodic_tasks_init_task_50tks(void)
  {
-	
+
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_100tks
  *  Description          : Container for initialization of functionality that is
@@ -117,7 +117,7 @@ void periodic_tasks_init_SysDrvs(void)
  {
 
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_500tks
  *  Description          : Container for initialization of functionality that is
@@ -130,7 +130,7 @@ void periodic_tasks_init_SysDrvs(void)
  {
 
  }
- 
+
  /**************************************************************
  *  Name                 : periodic_tasks_init_task_1Mtks
  *  Description          : Container for initialization of functionality that is
@@ -141,6 +141,6 @@ void periodic_tasks_init_SysDrvs(void)
  **************************************************************/
  void periodic_tasks_init_task_1Mtks(void)
  {
- 
+
  }
- 
+

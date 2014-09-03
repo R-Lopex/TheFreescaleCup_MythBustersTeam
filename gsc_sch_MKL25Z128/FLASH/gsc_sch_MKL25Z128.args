@@ -1,7 +1,7 @@
 "./Project_Settings/Startup_Code/kinetis_sysinit.o"
 "./Project_Settings/Startup_Code/__arm_start.o"
 "./Project_Settings/Startup_Code/__arm_end.o"
-"./Sources/app/RGB_LEDs.o"
+"./Sources/app/app_GPIO.o"
 "./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_tick_isr.o"
 "./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core_cfg.o"
 "./Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o"
@@ -18,10 +18,10 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--T"D:/Documents/Kinetics/Kinetics_working/gsc_sch_MKL25Z128/Project_Settings/Linker_Files/MKL25Z128_flash.ld"
+-T"D:/Documentos_/GitHub/T_F_C_/gsc_sch_MKL25Z128/Project_Settings/Linker_Files/MKL25Z128_flash.ld"
 -Xlinker
 --gc-sections
--L"C:/Freescale/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
+-L"C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
 -Wl,-Map,gsc_sch_MKL25Z128.map
 -n
 -specs=ewl_c.specs
