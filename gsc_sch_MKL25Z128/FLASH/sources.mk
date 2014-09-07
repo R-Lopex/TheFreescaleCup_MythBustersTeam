@@ -63,6 +63,7 @@ Sources \
 Sources/mcl \
 Sources/gsc_scheduler/periodic_tasks \
 Sources/gsc_scheduler/gsc_sch_core \
+Sources/driver \
 Sources/app \
 Project_Settings/Startup_Code \
 

@@ -2,17 +2,17 @@
 /*                     AZOR - EMBEDDED SYSTEMS SOFTWARE                       */
 /*============================================================================*/
 /*                        OBJECT SPECIFICATION                                */
-/*============================================================================*
-* C Include:       periodic_tasks_modules.h
-* version:         1.0 
-* created_by:      MDRR 
-* date_created:    July 31 2013     
-*=============================================================================*/
+/*============================================================================//
+// C Include:       periodic_tasks_modules.h                                  //
+// version:         1.0                                                       //
+// created_by:      MDRR                                                      //
+// date_created:    July 31 2013                                              */
+/*============================================================================*/
 /* DESCRIPTION : List of headers of the modules executed from some of the     */
 /* periodic tasks defined in periodic_tasks_exec.c                            */                      
 /*============================================================================*/
 /* FUNCTION COMMENT : In the list of this header file the user must add the   */
-/* header name of the functionality that have to be executed periodically      */
+/* header name of the functionality that have to be executed periodically     */
 /*                                                                            */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
@@ -30,8 +30,8 @@
 /* List of headers of the modules executed from some of these periodic tasks  */
 /*============================================================================*/
 
-#include "app\app_GPIO.h"
 
+#include "app\app_TFC.h"
 
 /*============================================================================*/
 

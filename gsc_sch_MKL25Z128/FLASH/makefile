@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 14
+#Progress monitor hint: 17
 first : all
 -include ../makefile.init
 
@@ -18,6 +18,7 @@ RM := "$(GNU_Make_Install_DirEnv)/rm" -rf
 -include Sources/mcl/subdir.mk
 -include Sources/gsc_scheduler/periodic_tasks/subdir.mk
 -include Sources/gsc_scheduler/gsc_sch_core/subdir.mk
+-include Sources/driver/subdir.mk
 -include Sources/app/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
 -include objects.mk
@@ -62,7 +63,7 @@ all: warning-messages explicit-dependencies gsc_sch_MKL25Z128.elf secondary-outp
 # Tool invocations
 gsc_sch_MKL25Z128.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/MKL25Z128_flash.ld
 	@echo 'Building target: $@'
-	@echo 'Executing target #15 $@'
+	@echo 'Executing target #18 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"gsc_sch_MKL25Z128.args" -o"gsc_sch_MKL25Z128.elf"
 	@echo 'Finished building target: $@'

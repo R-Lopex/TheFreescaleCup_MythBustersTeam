@@ -2,11 +2,11 @@
 /*                         MYTHBUSTERS_TEAM_1                                 */
 /*============================================================================*/
 /*                        OBJECT SPECIFICATION                                */
-/*============================================================================*/
-/* C Source:        app_GPIO.cpp                                              */
-/* version:         1.0                                                       */
-/* created_by:      Lopex_                                                    */
-/* date_created:    September 03 2014                                         */
+/*============================================================================//
+// C Source:        app_GPIO.h                                                //
+// version:         1.0                                                       //
+// created_by:      Lopex_                                                    //
+// date_created:    September 03 2014                                         */
 /*============================================================================*/
 /* DESCRIPTION :  This file contains the GPIO prototype functions to          */
 /* initialize the GPIO pins and the user functions to use them                */
@@ -19,15 +19,16 @@
 /*----------------------------------------------------------------------------*/
 /*  1.0      | 03/Sep/2014 |                               | Lopex_           */
 /* This file is created based on TFC_BoardSupport.h for the                   */
-/* app_GPIO.cpp file                                                          */
+/* app_GPIO.c file                                                            */
 /*============================================================================*/
 
 
-#include <stdint.h>
-#include "derivative.h"
+
 
 #ifndef APP_GPIO_H_
 #define APP_GPIO_H_
+
+#include "app\app_TFC.h"
 
 
 /// Output Definitions

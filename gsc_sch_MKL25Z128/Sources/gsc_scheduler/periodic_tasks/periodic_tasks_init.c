@@ -2,12 +2,12 @@
 /*                     AZOR - EMBEDDED SYSTEMS SOFTWARE                       */
 /*============================================================================*/
 /*                        OBJECT SPECIFICATION                                */
-/*============================================================================*
-* C Source:        periodic_tasks_init.c
-* version:         1.0
-* created_by:      MDRR
-* date_created:    July 31 2013
-*=============================================================================*/
+/*============================================================================//
+// C Source:        periodic_tasks_init.c                                     //
+// version:         1.0                                                       //
+// created_by:      MDRR                                                      //
+// date_created:    July 31 2013                                              */
+/*============================================================================*/
 /* DESCRIPTION :  Definition of functions to initialize periodic tasks        */
 /*============================================================================*/
 /* FUNCTION COMMENT : Add here the user initialization for the                */
@@ -50,7 +50,7 @@ void periodic_tasks_init_MclDrvs(void)
  **************************************************************/
 void periodic_tasks_init_SysDrvs(void)
 {
-	app_InitGPIO();
+	app_InitAll();
 }
 
 /**************************************************************
@@ -128,7 +128,7 @@ void periodic_tasks_init_SysDrvs(void)
  **************************************************************/
  void periodic_tasks_init_task_500tks(void)
  {
-
+	 
  }
 
  /**************************************************************
