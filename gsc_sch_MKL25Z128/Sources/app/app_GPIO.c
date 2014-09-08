@@ -24,7 +24,7 @@
 
 
 
-#include "app\app_GPIO.h"
+#include "app\app_TFC.h"
 
 
 //set I/O for H-BRIDGE enables, switches, buttons and LEDs

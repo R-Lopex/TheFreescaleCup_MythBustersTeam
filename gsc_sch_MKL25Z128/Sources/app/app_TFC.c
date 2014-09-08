@@ -11,4 +11,5 @@ void app_InitAll()
 {
 	app_InitGPIO();
 	app_InitServos();
+	app_InitADCs();
 }

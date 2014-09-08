@@ -27,11 +27,10 @@
 #ifndef APP_SERVOS_H_
 #define APP_SERVOS_H_
 
-#include "app\app_TFC.h"
 
 
-#define CORE_CLOCK                     (48000000)
-#define FTM1_CLOCK                     (CORE_CLOCK)
+
+
 // Prescale Selector value - see comments in Status Control (SC) section for more details
 #define FTM1_CLK_PRESCALE              6
 // Desired Frequency of PWM Signal - Here 50Hz => 20ms period
