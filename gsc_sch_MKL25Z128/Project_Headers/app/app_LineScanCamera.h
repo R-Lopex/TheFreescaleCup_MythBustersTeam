@@ -13,7 +13,6 @@
 
 
 void app_InitLineScanCamera();
-void app_LineScanImageCamera();
 
 void app_SetLineScanExposureTime(uint32_t  TimeIn_uS);
 

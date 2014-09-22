@@ -11,5 +11,6 @@ void app_InitAll()
 {
 	app_InitGPIO();
 	app_InitServos();
+	app_InitLineScanCamera();
 	app_InitADCs();
 }

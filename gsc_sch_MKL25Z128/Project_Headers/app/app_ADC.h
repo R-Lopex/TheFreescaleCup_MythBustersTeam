@@ -9,12 +9,13 @@
 #define APP_ADC_H_
 
 
-
-void PIT0_IRQ();
 void ADC0_IRQ();
 void app_InitADCs();
 float app_ReadPot(uint8_t Channel);
 float app_ReadBatteryVoltage();
 void app_ServoAndPot();
+void app_StartADCConvertion();
+void app_ADCCheck();
+
 
 #endif /* APP_ADC_H_ */

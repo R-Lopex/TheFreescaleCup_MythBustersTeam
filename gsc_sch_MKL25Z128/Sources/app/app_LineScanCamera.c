@@ -17,6 +17,10 @@ volatile uint16_t  LineScanImage1Buffer[2][128];
 volatile uint8_t   LineScanWorkingBuffer;
 volatile uint8_t   LineScanImageReady = 0;
 
+
+
+
+
 void app_InitLineScanCamera()
 {
 	SIM_SCGC5 |=     SIM_SCGC5_PORTE_MASK | SIM_SCGC5_PORTD_MASK; //Make sure the clock is enabled for PORTE;
